@@ -14,6 +14,7 @@ test('renders sunny day', () => {
   render(<WeatherDay day={day} />)
 
   expect(screen.getAllByText("☀️")).toHaveLength(1)
+  expect(screen.getAllByText("89.3")).toHaveLength(1)
 })
 
 test('renders rainy day', () => {
@@ -27,6 +28,7 @@ test('renders rainy day', () => {
   render(<WeatherDay day={day} />)
 
   expect(screen.getAllByText("🌧️")).toHaveLength(1)
+  expect(screen.getAllByText("89.3")).toHaveLength(1)
 })
 
 test('renders cloudy day', () => {
@@ -40,5 +42,6 @@ test('renders cloudy day', () => {
   render(<WeatherDay day={day} />)
 
   expect(screen.getAllByText("🌥️")).toHaveLength(1)
+  expect(screen.getAllByText("89.3")).toHaveLength(1)
 })
 
