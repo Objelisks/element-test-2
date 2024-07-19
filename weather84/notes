@@ -1,0 +1,12 @@
+learn what geocoding is
+https://open-meteo.com/en/docs/geocoding-api
+
+<h1>plan ahead</h1>
+
+add an autocomplete to the search bar
+openmeteo api call
+style output a little
+pass location data
+use a formatter
+doing a typing pass
+debounce autocomplete
